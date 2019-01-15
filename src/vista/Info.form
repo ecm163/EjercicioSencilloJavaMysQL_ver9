@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JInternalFrameFormInfo">
+  <Properties>
+    <Property name="closable" type="boolean" value="true"/>
+    <Property name="iconifiable" type="boolean" value="true"/>
+    <Property name="maximizable" type="boolean" value="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jScrollPane1" max="32767" attributes="0"/>
+                      <Group type="102" attributes="0">
+                          <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="272" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="BotonMasInfo" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jScrollPane1" min="-2" pref="201" max="-2" attributes="0"/>
+                  <EmptySpace pref="16" max="32767" attributes="0"/>
+                  <Component id="BotonMasInfo" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Estas son algunas de las instrucciones del programa."/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="jTextArea1">
+              <Properties>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="rows" type="int" value="5"/>
+                <Property name="text" type="java.lang.String" value="1- Conexi&#xf3;n con la base de datos:&#xa;&#xa;   1.1- Mediante XAMPP y phpMyAdmin crear una base de datos &#xa;        llamada &apos;sistema&apos; y dentro de ella la tabla &apos;usuario&apos;&#xa;   1.2- En el XAMPP Control Panel, activar Apache y MySQL.&#xa;&#xa;2- Gesti&#xf3;n de base de datos:&#xa;&#xa;   Una vez ingresado el login correctamente, nos aparece el &#xa;   interfaz del programa principal con varias pesta&#xf1;as.&#xa;   Ir a la pesta&#xf1;a &apos;Registro/Consulta&apos;. En dicha pesta&#xf1;a &#xa;   hacer clic en el bot&#xf3;n activar.&#xa;&#xa;   Ah&#xed; podemos encontrar botones y campor varias para implementar&#xa;   varias funcionalidades.&#xa;&#xa;   2.1- Ingresar nuevo usuario:&#xa;    &#xa;        - Rellenar en el panel llamado &apos;Nuevo Registro&apos; los campos&#xa;          (Nombre, Apellidos, Edad, Correo).&#xa;        - Clic en bot&#xf3;n Guardar.&#xa;&#xa;   2.2- Limpiar los campos (Nombre, Apellidos, Edad, Correo&#xa;        y el que est&#xe1; a la izquierda del bot&#xf3;n buscar):&#xa;&#xa;        - Pulsar bot&#xf3;n limpiar.&#xa;&#xa;   2.3- Buscar usuarios en la tabla:&#xa;&#xa;        Es posible buscar un usuario en la tabla mediante su Id,&#xa;        nombre, apellidos, edad y correo.&#xa;&#xa;        2.3.1- Buscar por Id:&#xa;&#xa;             - En el desplegable seleccionar Id.&#xa;             - En el campo debajo del desplegable introducir Id del&#xa;               usuario buscado.&#xa;             - En la tabla aparecer&#xe1; s&#xf3;lo la fila del usuario buscado.&#xa;             - Para que se vuelva a ver la tabla completa clic en bot&#xf3;n&#xa;               &apos;Mostrar Tabla Completa&apos;.&#xa;&#xa;&#xa;        2.3.2- Buscar por Nombre:&#xa;&#xa;             - En el desplegable seleccionar Nombre.&#xa;             - En el campo debajo del desplegable introducir Nombre del&#xa;               usuario buscado.&#xa;             - En la tabla aparecer&#xe1; s&#xf3;lo la fila del usuario buscado.&#xa;             - Para que se vuelva a ver la tabla completa clic en bot&#xf3;n&#xa;               &apos;Mostrar Tabla Completa&apos;.&#xa;&#xa;&#xa;        2.3.3- Buscar por Apellidos:&#xa;&#xa;             - En el desplegable seleccionar Apellidos.&#xa;             - En el campo debajo del desplegable introducir Apellidos del&#xa;               usuario buscado.&#xa;             - En la tabla aparecer&#xe1; s&#xf3;lo la fila del usuario buscado.&#xa;             - Para que se vuelva a ver la tabla completa clic en bot&#xf3;n&#xa;               &apos;Mostrar Tabla Completa&apos;.&#xa;&#xa;&#xa;        2.3.4- Buscar por Edad:&#xa;&#xa;             - En el desplegable seleccionar Edad.&#xa;             - En el campo debajo del desplegable introducir Edad del&#xa;               usuario buscado.&#xa;             - En la tabla aparecer&#xe1; s&#xf3;lo la fila del usuario buscado.&#xa;             - Para que se vuelva a ver la tabla completa clic en bot&#xf3;n&#xa;               &apos;Mostrar Tabla Completa&apos;.&#xa;&#xa;&#xa;        2.3.5- Buscar por Correo:&#xa;&#xa;             - En el desplegable seleccionar Correo.&#xa;             - En el campo debajo del desplegable introducir Correo del&#xa;               usuario buscado.&#xa;             - En la tabla aparecer&#xe1; s&#xf3;lo la fila del usuario buscado.&#xa;             - Para que se vuelva a ver la tabla completa clic en bot&#xf3;n&#xa;               &apos;Mostrar Tabla Completa&apos;.&#xa;        &#xa;   2.4- Modificar un dato en la tabla:&#xa;&#xa;             - Si se desea se puede buscar la fila del usuario del que se&#xa;               quiere modificar alg&#xfa;n dato.&#xa;             - En cualquier caso seleccionar la fila del usuario al que &#xa;               se le quiere modificar alg&#xfa;n dato.&#xa;             - Hacer clic en bot&#xf3;n &apos;Modificar.&#xa;             - En el panel (gris m&#xe1;s oscuro) &apos;Nuevo registro&apos;, se llenan&#xa;               los campos Nombre, Apellidos, Edad y Correo con los datos&#xa;               del usuario al que le queremos modificar alg&#xfa;n dato.&#xa;             - Modificar el o los datos que deseemos en el panel &apos;Nuevo&#xa;               Registro&apos;, ya sea el en campo Nombre, en el campo Apellidos,&#xa;               en el campo Edad o en el campo Correo.&#xa;             - Clic en el bot&#xf3;n Actualizar.&#xa;&#xa;   2.5- Eliminar un usuario en la tabla:&#xa;&#xa;             - Si se desea se puede buscar la fila del usuario al que se&#xa;               quiere eliminar de la base de datos.&#xa;             - En cualquier caso seleccionar la fila del usuario al que &#xa;               se quiere eliminar de la base de datos.&#xa;             - Hacer clic en el bot&#xf3;n &apos;Eliminar&apos;.&#xa;&#xa;   2.6- Generar informe de la tabla:&#xa;&#xa;             - Clic en bot&#xf3;n &apos;Generar Informe&apos;.&#xa;&#xa;&#xa;3- Subir una nueva imagen para que aparezca en la pesta&#xf1;a principal:&#xa;&#xa;             - Ir a pesta&#xf1;a &apos;Configuraci&#xf3;n&apos;.&#xa;             - Clic en bot&#xf3;n cambiar.&#xa;             - Navegar a la imagen jpg, jpeg o png que se quiere subir&#xa;               al interfaz para cambiar la que est&#xe1; por defecto en la &#xa;               pesta&#xf1;a principal.&#xa;             - Sleccionar la imagen en cuesti&#xf3;n y clic en abrir.&#xa;             - Si vamos a la pesta&#xf1;a prinicpal ver&#xe9;mos que la imagen a &#xa;               cambiado.&#xa;             &#xa;    Hecho por ecm163&#xae;.             &#xa;&#xa;        "/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JButton" name="BotonMasInfo">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="M&#xe1;s Informaci&#xf3;n"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BotonMasInfoActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
